@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&family=Roboto:wght@400;500;700;900&display=swap');
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
 }
 h1{
     font-size: 1.5rem;
@@ -16,6 +18,7 @@ h4{
 i{
     font-size: 1.5rem;
     color: #fff;
+    cursor: pointer;
 }
 p,a{
     font-size: .9rem;
@@ -23,4 +26,103 @@ p,a{
 hr{
      border: 1px solid rgba(255, 255, 255, 0.1);
      margin: 12px 0;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #202020;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 25px;
+    padding-right: 40px; 
+}
+.logo-img{
+    position: relative;
+    height: 30px;
+    width: 30px;
+    margin-left: 8px;
+}
+img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#logo-txt{
+    color: white;
+    letter-spacing: -1.5px;
+    margin-left: 8px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+}
+.search-container{
+    display: flex;
+    align-items: center;
+    flex: 0 1 600px;
+    margin-left: 40px;
+}
+.search-container form{
+    position: relative;
+    width: 100%;
+}
+.search-container input{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #121212;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 12px;
+    color: #fff;
+    font-size: 1rem;
+}
+.search{
+    min-width: 60px;
+    height: 40px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    border: none;
+    background-color: #313131;
+    /* z-index: 20; */
+}
+.mic{
+    height: 40px;
+    min-width: 40px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    background: #181818;
+    margin-left: 10px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+.profile-container{
+    display: flex;
+    align-items: center;
+}
+.profile-container i{
+    margin-left: 25px;
+}
+.profile-box{
+    position: relative;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 25px;
 }
