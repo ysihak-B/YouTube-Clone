@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+h1{
+    font-size: 1.5rem;
+}
+h4{
+    font-size: .9rem;
+    text-transform: uppercase;
+    color: #aaa;
+    margin-left: 20px;
+}
+i{
+    font-size: 1.5rem;
+    color: #fff;
+}
+p,a{
+    font-size: .9rem;
+}
+hr{
+     border: 1px solid rgba(255, 255, 255, 0.1);
+     margin: 12px 0;
+}
