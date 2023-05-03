@@ -169,3 +169,31 @@ img{
 .sidenavbar:hover::-webkit-scrollbar-thumb{
     background-color: #717171;
 }
+.content{
+    width: calc(100vw - 240px);
+}
+.chip-wrapper{
+    background-color: #181818;
+    display: flex;
+    overflow-x: scroll;
+    padding: 8px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.chip-wrapper::-webkit-scrollbar{
+    height: 0;
+}
+.chip{
+    background-color: #373737;
+    color: #fff;
+    padding: 6px 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    margin-right: 8px;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: .5s; 
+}
+.chip:hover{
+    background-color:  #4d4d4d;
+}
