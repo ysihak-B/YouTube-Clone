@@ -136,3 +136,36 @@ img{
     overflow: hidden;
     margin-left: 25px;
 }
+
+.body-container{
+    display: flex;
+    position: fixed;
+    height: calc(100vh - 50px);
+    top: 50px;
+}
+.sidenavbar{
+    background: #212121;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    width: 240px;
+    overflow-y: scroll;
+}
+.sidenavbar-item{
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    padding: 0 24px;
+    cursor: pointer;
+    height: 40px;
+}
+.sidenavbar-item:hover{
+    background-color: #4c4c4c;
+}
+.sidenavbar-item i{
+    margin-right: 24px ;
+}
+.sidenavbar:hover::-webkit-scrollbar-thumb{
+    background-color: #717171;
+}
