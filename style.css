@@ -197,3 +197,61 @@ img{
 .chip:hover{
     background-color:  #4d4d4d;
 }
+
+.video-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 18px;
+    padding: 20px 25px;
+    background-color: #181818;
+    overflow-y: scroll;
+    height: calc(100vh - 70px);
+}
+.video-container:hover::-webkit-scrollbar-thumb{
+    background-color: #888;
+}
+.video-content-cover{
+    position: relative;
+    transition: .5s;
+    transition-delay: .05s;
+}
+.video-content{
+    position: relative;
+    width: 100%;
+    margin-bottom: 25px;
+    transition: .5s;
+}
+.video-box{
+    position: relative;
+    width: auto;
+    display: block;
+    height: 150px;
+}
+.video-details{
+    display: flex;
+    color: #fff;
+    padding-top: 12px;
+    justify-content: space-between;
+}
+.channel-logo{
+    position: relative;
+    height: 35px;
+    min-width: 35px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.detail{
+    margin-left: 12px;
+}
+.title{
+    font-size: .9rem;
+}
+.channel-name{
+    font-size: .8rem;
+    margin-top: 10px;
+    color: #aaa;
+}
+.views-upload{
+    display: flex;
+    font-size: .8rem;
+}
